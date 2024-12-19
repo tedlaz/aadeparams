@@ -1,0 +1,254 @@
+Χώρα
+Χώρες
+id country
+
+GR Ελλάδα
+AT Αυστρία
+BE Βέλγιο
+XI Βόρεια Ιρλανδία
+BG Βουλγαρία
+FR Γαλλία
+DE Γερμανία
+DK Δανία
+EE Εσθονία
+IE Ιρλανδία
+ES Ισπανία
+IT Ιταλία
+HR Κροατία
+CY Κύπρος
+LV Λετονία
+LT Λιθουανία
+LU Λουξεμβούργο
+MT Μάλτα
+NL Ολλανδία
+HU Ουγγαρία
+PL Πολωνία
+PT Πορτογαλία
+RO Ρουμανία
+SK Σλοβακία
+SI Σλοβενία
+SE Σουηδία
+CZ Τσεχία
+FI Φινλανδία
+AL Αλβανία
+DZ Αλγερία
+AS Αμερικανική Σαμόα
+AD Ανδόρα
+AO Αγκόλα
+AI Anguilla
+AQ Ανταρκτική
+AG Antigua & Barbuda
+AR Αργεντινή
+AM Αρμενία
+AW Αρούμπα
+AU Αυστραλία
+AF Αφγανιστάν
+AZ Αζερμπαϊτζάν
+BS Μπαχάμες
+BH Μπαχραίιν
+BD Μπαγκλαντές
+BB Barbados
+BY Λευκορωσία
+BZ Belize
+BJ Benin
+BM Bermuda
+BT Μπουτάν
+BO Βολιβία
+BQ Bonaire Sint
+BA Βοσνία Ερζεγοβίνη
+BW Botswana
+BV Bouvet Island
+BR Βραζιλία
+IO British Indian Oc.
+BN Brunei Darussalam
+BF Burkina Faso
+BI Burundi
+CV Cabo Verde
+KH Cambodia
+CM Cameroon
+CA Καναδάς
+KY Cayman Islands
+CF Central Africa
+TD Chad
+CL Χιλή
+CN Κίνα
+CX Christmas Island
+CC Cocos Islands
+CO Κολομβία
+KM Comoros
+CD Congo
+CG Κανγκό
+CK Cook Islands
+CR Κόστα Ρίκα
+CU Κούβα
+CW Curacao
+CI Côte d'Ivoire
+DJ Τζιμπουτί
+DM Dominica
+DO Dominican Republic
+EC Ecuador
+EG Αίγυπτος
+SV Ελ Σαλβαδόρ
+GQ Equatorial Guinea
+ER Ερυθραία
+SZ Eswatini
+ET Αιθιωπία
+FK Falkland Islands
+FO Faroe Islands
+FJ Fiji
+GF Γαλλική Γουϊάνα
+PF Γαλλική Πολυνησία
+TF French Southern
+GA Gabon
+GM Gambia
+GE Γεωργία
+GH Γκάνα
+GI Γιβλαρτάρ
+GL Γριλανδία
+GD Grenada
+GP Γουαδελούπη
+GU Guam
+GT Γουατεμάλα
+GG Guernsey
+GN Γουινέα
+GW Guinea-Bissau
+GY Guyana
+HT Haiti
+HM Heard Island
+VA Holy See
+HN Ονδούρα
+HK Χόνκ Κόνγκ
+IS Ισλανδία
+IN Ινδία
+ID Indonesia
+IR Ιράν
+IQ Ιράκ
+IM Isle of Man
+IL Ισραήλ
+JM Τζαμάϊκα
+JP Ιαπωνία
+JE Jersey
+JO Ιορδανία
+KZ Καζακστάν
+KE Κένυα
+KI Kiribati
+KP Βόρειος Κορέα
+KR Κορέα
+KW Κουβαίιτ
+KG Kyrgyzstan
+LA Lao
+LB Lebanon
+LS Lesotho
+LR Liberia
+LY Λιβύη
+LI Λιχνενστάϊν
+MO Μακάο
+MG Μαγαδασκάρη
+MW Malawi
+MY Μαλαισία
+MV Μαλδίβες
+ML Mali
+MH Marshall Islands
+MQ Martinique
+MR Mauritania
+MU Mauritius
+YT Mayotte
+MX Μεξικό
+FM Micronesia
+MD Moldova
+MC Μανακό
+MN Μογγολία
+ME ΜΑυροβούνιο
+MS Montserrat
+MA Μαρόκο
+MZ Mozambique
+MM Myanmar
+NA Namibia
+NR Nauru
+NP Nepal
+NC New Caledonia
+NZ Νέα Ζηλανδία
+NI Νικαράγουα
+NE Νίγηρας
+NG Νιγηρία
+NU Niue
+NF Norfolk Island
+MK Βόρειος Μακεδονία
+MP Northern Mariana
+NO Νορβηγία
+OM Oman
+PK Πακιστάν
+PW Palau
+PS Παλεστίνη
+PA Παναμάς
+PG Papua New Guinea
+PY Παραγουάη
+PE Περού
+PH Φιλιππίνες
+PN Pitcairn
+PR Πόρτο Ρίκο
+QA Κατάρ
+RU Ρωσσία
+RW Ρουάντα
+RE Réunion
+BL Saint Barthélemy
+SH Saint Helena
+KN Saint Kitts
+LC Saint Lucia
+MF Saint Martin
+PM Saint Pierre
+VC Saint Vincent
+WS Samoa
+SM San Marino
+ST Sao Tome
+SA Σαουδική Αραβία
+SN Σενεγάλη
+RS Σερβία
+SC Σεϋχέλλες
+SL Σιέρρα Λεόνε
+SG Σιγκαπούρη
+SX Sint Maarten
+SB Solomon Islands
+SO Σομαλία
+ZA Νότιος Αφρική
+GS South Georgia
+SS Νότιο Σουδάν
+LK Κευλάνη
+SD Σουδάν
+SR Suriname
+SJ Svalbard
+CH Ελβετία
+SY Συρία
+TW Ταϊβάν
+TJ Τατζικιστάν
+TZ Τανζανία
+TH Ταϋλάνδη
+TL Timor-Leste
+TG Togo
+TK Tokelau
+TO Tonga
+TT Trinidad Tobago
+TN Τυνησία
+TR Τουρκία
+TM Τουρκμενιστάν
+TC Turks and Caicos
+TV Tuvalu
+UG Ουγκάντα
+UA Ουκρανία
+AE Ην.Αραβικά Εμιράτα
+GB Ηνωμένο Βασίλειο
+UM US Minor Islands
+US Ηνωμένες Πολιτείες
+UY Ουρουγουάη
+UZ Ουζμπεκιστάν
+VU Vanuatu
+VE Βενεζουέλα
+VN Βιετνάμ
+VG Virgin Islands Br
+VI Virgin Islands US
+WF Wallis and Futuna
+EH Western Sahara
+YE Υεμένη
+ZM Ζάμπια
+ZW Ζιμπάμπουε
+AX Aland Islands
