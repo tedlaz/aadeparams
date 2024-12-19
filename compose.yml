@@ -1,12 +1,13 @@
 services:
   aadeparams:
+    image: tedlaz/aadeparams:latest
     build: .
     container_name: aadeparams
     ports:
       - '80:80'
     restart: unless-stopped
     healthcheck:
-      test: ['CMD', 'curl', '-f', 'http://localhost:80/']
+      test: ['CMD', 'curl', '-f', 'http://localhost:80/health/ping']
       interval: 30s
       timeout: 10s
       retries: 3

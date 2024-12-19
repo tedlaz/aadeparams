@@ -45,3 +45,8 @@ async def get_data(param: str):
             detail=f"Parameter '{param}' not found",
         )
     return result
+
+
+@app.get("/health/ping")
+async def health():
+    return {"status": "ok"}
