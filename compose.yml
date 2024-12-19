@@ -1,0 +1,12 @@
+services:
+  aadeparams:
+    build: .
+    container_name: aadeparams
+    ports:
+      - '80:80'
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:80/']
+      interval: 30s
+      timeout: 10s
+      retries: 3

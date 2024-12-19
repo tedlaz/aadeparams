@@ -24,11 +24,20 @@ This API service provides easy access to various parameter lists and codes used 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/tedlaz/aadeparams.git
 
 # Install dependencies
 uv sync
 
 # Start the server
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uv run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+## Docker
+
+To build and run the Docker container:
+
+```bash
+docker build -t aadeparams .
+docker run -p 80:80 aadeparams
 ```
