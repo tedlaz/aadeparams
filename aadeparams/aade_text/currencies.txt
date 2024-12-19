@@ -1,6 +1,6 @@
 Νόμισμα
 Νομίσματα
-id  currency
+id name
 
 EUR Euro
 GBP UK Pound

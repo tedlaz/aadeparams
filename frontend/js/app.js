@@ -1,5 +1,6 @@
 const API_URL = 'http://192.168.1.70:80'
 const select = document.getElementById('parameterSelect')
+const selec2 = document.getElementById('parameter2Select')
 const result = document.getElementById('result')
 const loading = document.getElementById('loading')
 
@@ -7,6 +8,9 @@ async function fetchMetadata() {
   try {
     const response = await fetch(`${API_URL}/`)
     const data = await response.json()
+
+    // Sort the data by titlep before creating options
+    data.vals.sort((a, b) => a.titlep.localeCompare(b.titlep))
 
     data.vals.forEach((item) => {
       const option = document.createElement('option')
@@ -16,6 +20,22 @@ async function fetchMetadata() {
     })
   } catch (error) {
     console.error('Error fetching metadata:', error)
+  }
+}
+
+async function fillControlWithData(param, control) {
+  try {
+    const response = await fetch(`${API_URL}/${param}`)
+    const data = await response.json()
+
+    data.vals.forEach((item) => {
+      const option = document.createElement('option')
+      option.value = item.id
+      option.textContent = item.name
+      control.appendChild(option)
+    })
+  } catch (error) {
+    console.error('Error fetching parameter data:', error)
   }
 }
 
@@ -67,6 +87,8 @@ async function fetchParameterData(param) {
 select.addEventListener('change', (e) => {
   if (e.target.value) {
     fetchParameterData(e.target.value)
+    selec2.innerHTML = ''
+    fillControlWithData(e.target.value, selec2)
   } else {
     result.innerHTML = ''
   }

@@ -1,6 +1,6 @@
 Χώρα
 Χώρες
-id country
+id name
 
 GR Ελλάδα
 AT Αυστρία
