@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 
-from read_aade_data import create_aade_data
+from .read_aade_data import create_aade_data
 
 data = create_aade_data()
 
