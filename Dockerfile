@@ -10,9 +10,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY main.py .
-COPY read_aade_data.py .
-COPY aade_text/ ./aade_text/
+COPY . .
+
 
 # Expose the port the app runs on
 EXPOSE 80
